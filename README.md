@@ -15,6 +15,8 @@ Abra o endereço local mostrado pelo Vite. Para gerar a versão de produção:
 npm run build
 ```
 
+Site publicado: https://john-herbeth-licar.github.io/vibetyper/
+
 As texturas do teclado e as fontes são carregadas de serviços externos. Os links de pré-venda e comparação são provisórios.
 
 O projeto foi construído a partir do prompt e dos ativos do template Vibetyper da Uberdesigner; o uso e o compartilhamento seguem a licença do fornecedor.
