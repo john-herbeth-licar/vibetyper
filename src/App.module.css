@@ -1,0 +1,39 @@
+.gl {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100lvh;
+  display: block;
+}
+
+.ui {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.veil {
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+}
+
+.veil::after {
+  content: "Preparando o teclado…";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: var(--footnote-bottom);
+  color: var(--whisper);
+  font-size: var(--size-cue);
+  text-align: center;
+}
+
+.scroll {
+  position: relative;
+  height: var(--scroll-length);
+  pointer-events: none;
+}
